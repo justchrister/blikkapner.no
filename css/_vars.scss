@@ -1,0 +1,27 @@
+$font-size:           3.5;
+$margin:              10;
+$max-site-wdith:      800px;
+$columns:             6;
+$headline-font:       $sans-serif;
+$headline-weight:     700;
+$paragraph-font:      $sans-serif;
+$paragraph-weight:    400;
+$serif:               'Times New Roman', serif;
+$sans-serif:          'Arial', sans-serif;
+$monospace:           'Courier New', monospace;
+$focus-color:         #0000ff;
+$secondary-color:     #ff0000;
+$white-color:         #ffffff;
+$black-color:         #000000;
+
+
+
+
+
+$fs:                  $font-size;                 // font-size (in vw)
+$sw:                  100 - ($m * 2);             // site width (in vw)
+$msw:                 $max-site-wdith;            // max site width
+$m:                   $margin;                    // margin
+$cc:                  $columns;                   // column count
+$g:                   $m/10;                      // gutter width
+$cw:                  $sw/$cc;
